@@ -374,19 +374,13 @@ address {
 
 .social__item {
     max-width: calc((100% - 72px) / 4);
-
     width: 40px;
     height: 40px;
-
 }
 
 .social__link:hover,
 .social__link:focus {
     background-color: var(--pressed-state);
-}
-
-    {
-    background-color: var(--primary-brand);
 }
 
 .social__svg {
