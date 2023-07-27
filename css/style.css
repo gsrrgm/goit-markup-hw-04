@@ -385,6 +385,7 @@ address {
 
 .social__link:focus {
     border-color: var(--pressed-state);
+    color: var(--pressed-state);
 }
 
 .social__svg {
