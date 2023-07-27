@@ -383,6 +383,10 @@ address {
     background-color: var(--pressed-state);
 }
 
+.social__link:focus {
+    border-color: var(--pressed-state);
+}
+
 .social__svg {
     fill: var(--light);
     padding: 12px;
