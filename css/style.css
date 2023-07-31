@@ -578,7 +578,11 @@ address {
     ;
 }
 
-.customers__link:hover, 
+.customers__link:hover {
+    color: var(--pressed-state);
+    border-color: var(--pressed-state);
+}
+
 .customers__link:focus {
     color: var(--pressed-state);
     border-color: var(--pressed-state);
