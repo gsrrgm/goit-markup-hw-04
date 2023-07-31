@@ -584,51 +584,13 @@ address {
 }
 
 .customers__link:focus {
-    color: var(--pressed-state);
-    border-color: var(--pressed-state);
+    color:  #404bbf;
+    border-color:  #404bbf;
 }
 
-.customers__vector-text {
-    color: var(--lightslate, #8E8F99);
-    font-family: Roboto;
-    font-size: 6px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    position: relative;
-    left: 24px;
-    top: 2px;
-}
-
-.vector-circl {
-    left: 9px;
-    bottom: 4px;
-    position: relative;
-}
-
-.vector-drop-doter {
-    right: 13px;
-    top: 16px;
-    position: relative;
-}
-
-.vector-drop {
-    top: 4px;
-    right: 17px;
-    position: relative;
-}
 .customers__icon {
     fill: currentColor;
 }
-
-.customers__icon-drop {
-    box-sizing: content-box;
-    padding: 6px 9px 0px 11px;
-    display: block;
-    width: 102px;
-    height: 56px;
-}
-
 
 
 
