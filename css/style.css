@@ -578,16 +578,15 @@ address {
     ;
 }
 
-.customers__link:hover, 
-.customers__link:focus {
+.customers__link:hover {
     color: var(--pressed-state, #404bbf);
     border-color: var(--pressed-state, #404bbf);
 }
 
-/* .customers__link:focus {
-    color:  #404bbf;
-    border-color:  #404bbf;
-} */
+.customers__link:focus {
+    color: var(--pressed-state, #404bbf);
+    border-color: var(--pressed-state, #404bbf);
+}
 
 .customers__icon {
     fill: currentColor;
