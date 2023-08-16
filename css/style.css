@@ -578,8 +578,7 @@ address {
     ;
 }
 
-.customers__link:hover,
-.customers__link:focus {
+.customers__link:hover {
     color: var(--pressed-state, #404bbf);
     border-color: var(--pressed-state, #404bbf);
 }
